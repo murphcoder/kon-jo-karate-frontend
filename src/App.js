@@ -10,7 +10,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/' />
             <Route exact path='/classes' />
-            
+            4 years of secondary school, 2 years of pre-University, 2 years of University
           </Switch>
         </BrowserRouter>
       </div>
