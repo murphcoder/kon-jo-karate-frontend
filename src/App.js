@@ -7,6 +7,7 @@ class App extends React.Component {
     return (
       <div>
          <BrowserRouter>
+         <NavBar />
           <Switch>
             <Route exact path='/' />
             <Route exact path='/classes' />
