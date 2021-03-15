@@ -8,7 +8,7 @@ const LoggedInBar = (props) => {
             <NavLink to={{pathname: "/classes"}}>Classes</NavLink>
             <NavLink to={{pathname: "/locations"}}>Locations</NavLink>
             <NavLink to={{pathname: "/instructors"}}>Instructors</NavLink>
-            <NavLink className="logout" to="/" onClick={event => logout(props)}>Logout</NavLink>
+            <NavLink className="logout" to="/" onClick={}>Logout</NavLink>
         </div>
     )
 };
